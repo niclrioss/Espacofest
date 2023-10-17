@@ -1,0 +1,167 @@
+@font-face {
+    font-family:'AdigianaUltra';
+    src: url('../fonts/AdigianaUltra.ttf') format('truetype');
+    font-weight:normal;
+    font-style: normal;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100vw;
+    height: 100%;
+    font-family:'AdigianaUltra';
+   
+}
+
+body {
+    background: linear-gradient(90deg, rgb(97, 175, 187) 0%, rgb(122, 226, 230) 48%, rgb(28, 168, 196) 100%)!important;
+    /* original - background: linear-gradient(90deg, rgba(39,19,107,1) 10%, rgb(53, 38, 155) 72%); */
+    /* com imagem - background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/fundo-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    
+}
+
+
+/* Estilos header */
+
+header {
+    background-image: url("../img/header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    font-family:'AdigianaUltra';
+
+
+}
+
+header > nav {
+    width: 100%;
+}
+
+
+#navbarNav {
+    align-items: center;
+    margin-left: 21px;
+    font-size: 36px;
+   
+}
+
+@media screen and (min-width: 993px){ 
+    #navbarNav {
+    margin: 0 auto;
+}
+
+.nav-item a.nav-link{
+    margin-right: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+}
+
+.navbar-nav{
+    text-align: center;
+    word-spacing: 5px;
+    margin-left: 50px;
+
+
+}
+
+.nav-link {
+    font-size: 5.1em;
+   
+}
+
+/* Estilos main */
+
+section {
+    height: 100vh;
+    width: 100%;
+}
+
+body::-webkit-scrollbar {
+    width: 0.8em;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(29, 5, 65);
+    outline: 1px solid rgb(29, 5, 65);
+    border-radius: 10px;
+}
+ 
+
+
+.pacotes-hm{
+    text-align: center;
+}
+
+.nomedadecoracao{
+    color: white;
+    text-align: center;
+    font-family:'AdigianaUltra';
+    font-size: 70px;
+    margin:0;
+}
+
+
+
+.carousel-inner img{
+    border-left: 8px solid #6FC62D;
+    border-bottom: 8px solid #6FC62D;
+    border-RIGHt: 8px solid #6FC62D;
+    border-TOP: 8px solid #6FC62D;
+
+        border-radius: 3px;
+}
+
+
+
+.maps{
+    position:relative;
+   margin-left: 30.5%;
+   margin-top: 80px;
+   margin-bottom: 80px;
+   border-left: 8px solid rgba(0, 0, 0, 0.247);
+    border-bottom: 8px solid rgba(0, 0, 0, 0.247);
+}
+
+
+
+
+
+
+/*Rodapé*/
+
+.bRoxo{
+    background-image: url("../img/rodape.jpg");
+    display: flex;
+    font-size: 20px;
+    font-family:'AdigianaUltra';
+    color:white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+
+}
+
+.nav-item a.nav-link{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-bottom: -10px;
+}
+
+
